@@ -4,7 +4,7 @@
   "description": "Node.js CRUD API for Vercel and local Express",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "dev": "nodemon index.js",
     "vercel-dev": "vercel dev"
   },

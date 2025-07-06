@@ -13,6 +13,10 @@
   ],
   "routes": [
     {
+      "src": "/(.*)",
+      "dest": "index.js"
+    },
+    {
       "src": "/api/products",
       "methods": [
         "GET",
