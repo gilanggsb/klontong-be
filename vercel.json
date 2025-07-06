@@ -1,8 +1,33 @@
 {
   "version": 2,
-  "builds": [{ "src": "api/products.js", "use": "@vercel/node" }],
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "dist/**"
+        ]
+      }
+    }
+  ],
   "routes": [
-    { "src": "/api/products", "methods": ["GET", "POST"], "dest": "/api/products.js" },
-    { "src": "/api/products/(.*)", "methods": ["GET", "PUT", "DELETE"], "dest": "/api/products.js" }
+    {
+      "src": "/api/products",
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "dest": "/api/products.js"
+    },
+    {
+      "src": "/api/products/(.*)",
+      "methods": [
+        "GET",
+        "PUT",
+        "DELETE"
+      ],
+      "dest": "/api/products.js"
+    }
   ]
 }
