@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js CRUD API for Vercel and local Express",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js",
     "dev": "nodemon index.js",
