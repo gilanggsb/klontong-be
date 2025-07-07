@@ -1,6 +1,6 @@
 let products = [
   {
-    id: 86,
+    id: 1,
     category_id: 14,
     category_name: "Cemilan",
     sku: "MHZVTK",
@@ -10,11 +10,11 @@ let products = [
     width: 5,
     length: 5,
     height: 5,
-    image: "https://cf.shopee.co.id/file/7cb930d1bd183a435f4fb3e5cc4a896b",
+    image: "https://placehold.co/60",
     harga: 30000
   },
   {
-    id: 87,
+    id: 2,
     category_id: 14,
     category_name: "Cemilan",
     sku: "PLMNOQ",
@@ -24,11 +24,11 @@ let products = [
     width: 4,
     length: 6,
     height: 3,
-    image: "https://example.com/keripik-singkong.jpg",
+    image: "https://placehold.co/60",
     harga: 15000
   },
   {
-    id: 88,
+    id: 3,
     category_id: 15,
     category_name: "Minuman",
     sku: "QWERTY",
@@ -38,11 +38,11 @@ let products = [
     width: 7,
     length: 7,
     height: 10,
-    image: "https://example.com/es-teh.jpg",
+    image: "https://placehold.co/60",
     harga: 8000
   },
   {
-    id: 89,
+    id: 4,
     category_id: 16,
     category_name: "Kebutuhan Pokok",
     sku: "AZBYCX",
@@ -52,11 +52,11 @@ let products = [
     width: 30,
     length: 20,
     height: 10,
-    image: "https://example.com/beras-premium.jpg",
+    image: "https://placehold.co/60",
     harga: 65000
   },
   {
-    id: 90,
+    id: 5,
     category_id: 14,
     category_name: "Cemilan",
     sku: "POIUYT",
@@ -66,11 +66,11 @@ let products = [
     width: 3,
     length: 8,
     height: 2,
-    image: "https://example.com/permen-aneka-rasa.jpg",
+    image: "https://placehold.co/60",
     harga: 5000
   },
   {
-    id: 91,
+    id: 6,
     category_id: 15,
     category_name: "Minuman",
     sku: "LKJHGF",
@@ -80,11 +80,11 @@ let products = [
     width: 10,
     length: 12,
     height: 5,
-    image: "https://example.com/kopi-hitam.jpg",
+    image: "https://placehold.co/60",
     harga: 25000
   },
   {
-    id: 92,
+    id: 7,
     category_id: 17,
     category_name: "Peralatan Rumah Tangga",
     sku: "ZXCVBN",
@@ -94,11 +94,11 @@ let products = [
     width: 6,
     length: 6,
     height: 20,
-    image: "https://example.com/sabun-cuci.jpg",
+    image: "https://placehold.co/60",
     harga: 12000
   },
   {
-    id: 93,
+    id: 8,
     category_id: 14,
     category_name: "Cemilan",
     sku: "MNBVCX",
@@ -108,11 +108,11 @@ let products = [
     width: 10,
     length: 8,
     height: 4,
-    image: "https://example.com/roti-coklat-keju.jpg",
+    image: "https://placehold.co/60",
     harga: 10000
   },
   {
-    id: 94,
+    id: 9,
     category_id: 15,
     category_name: "Minuman",
     sku: "ASDFGH",
@@ -122,11 +122,11 @@ let products = [
     width: 7,
     length: 7,
     height: 25,
-    image: "https://example.com/susu-uht.jpg",
+    image: "https://placehold.co/60",
     harga: 18000
   },
   {
-    id: 95,
+    id: 10,
     category_id: 16,
     category_name: "Kebutuhan Pokok",
     sku: "TYUIOP",
@@ -136,7 +136,7 @@ let products = [
     width: 15,
     length: 10,
     height: 30,
-    image: "https://example.com/minyak-goreng.jpg",
+    image: "https://placehold.co/60",
     harga: 35000
   }
 ];
