@@ -11,7 +11,7 @@ let products = [
     length: 5,
     height: 5,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 30000
+    price: "30000"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ let products = [
     length: 6,
     height: 3,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 15000
+    price: "15000"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ let products = [
     length: 7,
     height: 10,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 8000
+    price: "8000"
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ let products = [
     length: 20,
     height: 10,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 65000
+    price: "65000"
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ let products = [
     length: 8,
     height: 2,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 5000
+    price: "5000"
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ let products = [
     length: 12,
     height: 5,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 25000
+    price: "25000"
   },
   {
     id: 7,
@@ -95,7 +95,7 @@ let products = [
     length: 6,
     height: 20,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 12000
+    price: "12000"
   },
   {
     id: 8,
@@ -109,7 +109,7 @@ let products = [
     length: 8,
     height: 4,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 10000
+    price: "10000"
   },
   {
     id: 9,
@@ -123,7 +123,7 @@ let products = [
     length: 7,
     height: 25,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 18000
+    price: "18000"
   },
   {
     id: 10,
@@ -137,7 +137,7 @@ let products = [
     length: 10,
     height: 30,
     image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
-    harga: 35000
+    price: "35000"
   }
 ];
 
