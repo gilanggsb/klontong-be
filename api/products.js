@@ -1,8 +1,9 @@
 import products from './product_data.js'; // Assuming this imports your product array
+import { extractIdFromUrl } from './utils.js';
 
 const handler = async (req, res) => {
   const method = req.method;
-  const id = req?.query?.id || req?.params?.id;
+  const id = req?.query?.id || req?.params?.id || extractIdFromUrl(req.url);
   console.log("Request method:", method, "ID:", id);
   const search_key = req?.query?.search_key || "";
   const productId = parseInt(id);
