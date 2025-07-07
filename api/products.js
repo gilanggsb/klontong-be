@@ -1,4 +1,4 @@
-import products from './product_data.js'; // Assuming this imports your product array
+import {products} from './data.js'; // Assuming this imports your product array
 import { extractIdFromUrl } from './utils.js';
 
 const handler = async (req, res) => {

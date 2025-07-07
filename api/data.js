@@ -1,7 +1,7 @@
 let products = [
   {
     id: 1,
-    category_id: 14,
+    category_id: 1,
     category_name: "Cemilan",
     sku: "MHZVTK",
     name: "Ciki ciki",
@@ -15,7 +15,7 @@ let products = [
   },
   {
     id: 2,
-    category_id: 14,
+    category_id: 1,
     category_name: "Cemilan",
     sku: "PLMNOQ",
     name: "Keripik Singkong Balado",
@@ -29,7 +29,7 @@ let products = [
   },
   {
     id: 3,
-    category_id: 15,
+    category_id: 2,
     category_name: "Minuman",
     sku: "QWERTY",
     name: "Es Teh Manis",
@@ -43,7 +43,7 @@ let products = [
   },
   {
     id: 4,
-    category_id: 16,
+    category_id: 3,
     category_name: "Kebutuhan Pokok",
     sku: "AZBYCX",
     name: "Beras Premium 5kg",
@@ -57,7 +57,7 @@ let products = [
   },
   {
     id: 5,
-    category_id: 14,
+    category_id: 1,
     category_name: "Cemilan",
     sku: "POIUYT",
     name: "Permen Aneka Rasa",
@@ -71,7 +71,7 @@ let products = [
   },
   {
     id: 6,
-    category_id: 15,
+    category_id: 2,
     category_name: "Minuman",
     sku: "LKJHGF",
     name: "Kopi Hitam Bubuk",
@@ -85,7 +85,7 @@ let products = [
   },
   {
     id: 7,
-    category_id: 17,
+    category_id: 4,
     category_name: "Peralatan Rumah Tangga",
     sku: "ZXCVBN",
     name: "Sabun Cuci Piring",
@@ -99,7 +99,7 @@ let products = [
   },
   {
     id: 8,
-    category_id: 14,
+    category_id: 1,
     category_name: "Cemilan",
     sku: "MNBVCX",
     name: "Roti Coklat Keju",
@@ -113,7 +113,7 @@ let products = [
   },
   {
     id: 9,
-    category_id: 15,
+    category_id: 2,
     category_name: "Minuman",
     sku: "ASDFGH",
     name: "Susu UHT Coklat",
@@ -127,7 +127,7 @@ let products = [
   },
   {
     id: 10,
-    category_id: 16,
+    category_id: 3,
     category_name: "Kebutuhan Pokok",
     sku: "TYUIOP",
     name: "Minyak Goreng 2L",
@@ -141,4 +141,23 @@ let products = [
   }
 ];
 
-export default products;
+let productCategories = [
+  {
+    id: 1,
+    name: "Cemilan",
+  },
+  {
+    id: 2,
+    name: "Minuman",
+  },
+  {
+    id: 3,
+    name: "Kebutuhan Pokok",
+  },
+  {
+    id: 4,
+    name: "Peralatan Rumah Tangga",
+  },
+]
+
+export { products, productCategories };
