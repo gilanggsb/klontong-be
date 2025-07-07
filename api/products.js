@@ -56,7 +56,7 @@ const handler = async (req, res) => {
       break;
 
     case 'POST':
-      const newProduct = { id: Date.now(), ...req.body };
+      const newProduct = { ...req.body, id: Date.now(), };
       products.push(newProduct);
       res.status(201).json({
         message: "success create product",
