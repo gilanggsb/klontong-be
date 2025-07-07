@@ -2,13 +2,13 @@ import products from './product_data.js'; // Assuming this imports your product 
 
 const handler = async (req, res) => {
   const method = req.method;
-  const id = req.query.id || req.params.id;
-  const search_key = req.query.search_key || "";
+  const id = req?.query?.id || req?.params?.id;
+  const search_key = req?.query?.search_key || "";
   const productId = parseInt(id);
 
   // Parse limit and offset from query parameters
-  const limit = req.query.limit ? parseInt(req.query.limit) : 10; // Default limit to 10
-  const offset = req.query.offset ? parseInt(req.query.offset) : 0; // Default offset to 0
+  const limit = req?.query?.limit ? parseInt(req.query.limit) : 10; // Default limit to 10
+  const offset = req?.query?.offset ? parseInt(req.query.offset) : 0; // Default offset to 0
 
   switch (method) {
     case 'GET':
@@ -16,7 +16,7 @@ const handler = async (req, res) => {
 
       if (search_key) {
         result = products.filter(p =>
-          p.name.toLowerCase().includes(search_key.toLowerCase())
+          p?.name?.toLowerCase().includes(search_key.toLowerCase())
         );
       }
 
