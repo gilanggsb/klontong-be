@@ -2,9 +2,16 @@ import products from './product_data.js'; // Assuming this imports your product 
 import { extractIdFromUrl } from './utils.js';
 
 const handler = async (req, res) => {
+  const api_key = req.headers['x-api-key'];
+  if (api_key != "a9d709e0") {
+    return res.status(403).json({
+      message: "Ensure you have the correct credentials",
+      data: null,
+      code: 403
+    });
+  }
   const method = req.method;
   const id = req?.query?.id || req?.params?.id || extractIdFromUrl(req.url);
-  console.log("Request method:", method, "ID:", id);
   const search_key = req?.query?.search_key || "";
   const productId = parseInt(id);
 
