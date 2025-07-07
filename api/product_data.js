@@ -10,7 +10,7 @@ let products = [
     width: 5,
     length: 5,
     height: 5,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 30000
   },
   {
@@ -24,7 +24,7 @@ let products = [
     width: 4,
     length: 6,
     height: 3,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 15000
   },
   {
@@ -38,7 +38,7 @@ let products = [
     width: 7,
     length: 7,
     height: 10,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 8000
   },
   {
@@ -52,7 +52,7 @@ let products = [
     width: 30,
     length: 20,
     height: 10,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 65000
   },
   {
@@ -66,7 +66,7 @@ let products = [
     width: 3,
     length: 8,
     height: 2,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 5000
   },
   {
@@ -80,7 +80,7 @@ let products = [
     width: 10,
     length: 12,
     height: 5,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 25000
   },
   {
@@ -94,7 +94,7 @@ let products = [
     width: 6,
     length: 6,
     height: 20,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 12000
   },
   {
@@ -108,7 +108,7 @@ let products = [
     width: 10,
     length: 8,
     height: 4,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 10000
   },
   {
@@ -122,7 +122,7 @@ let products = [
     width: 7,
     length: 7,
     height: 25,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 18000
   },
   {
@@ -136,7 +136,7 @@ let products = [
     width: 15,
     length: 10,
     height: 30,
-    image: "https://placehold.co/60",
+    image: "https://plus.unsplash.com/premium_photo-1669648878551-0490585cfd74?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D",
     harga: 35000
   }
 ];
