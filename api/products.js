@@ -25,10 +25,7 @@ const handler = async (req, res) => {
         if (!product) return res.status(404).json({ message: 'Not found', code: 404 });
         return res.status(200).json({
           message: "success get product",
-          data: {
-            search_key,
-            product
-          },
+          data: product,
           code: 200
         });
       }
